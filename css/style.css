@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 13, 13);
+    align-items: center;
+}
+#nav{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 25px;
+}
+#image{
+    font-size: 2rem;
+}
+
+ li input{
+    border-radius: 40%;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: 2px solid rgb(31, 95, 213);
+}
+main{
+    width: 97%;
+    height: 700px;
+    margin: 1px auto;
+}
+#para{
+    background-color: rgb(241, 230, 232);
+    margin: 20px auto;
+    padding: 10px;
+    width:73%
+}
+main div h2{
+    margin-bottom: 10px;
+}
+div:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 20px auto;
+    box-shadow: 7px 7px 5px rgb(69, 66, 67);
+    transition: 1s;
+}
+figure img{
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10%;
+}
+a:hover{
+    color: aquamarine;
+}
+input:hover{
+    background-color: aquamarine;
+}
+figure img:hover{
+    background-color: bisque;
+}
+footer{
+    background-image: url('../images/nature.avif');
+    background-size: 100%;
+    background-position: top center;
+}
+section{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+   margin: 10px auto;
+}
+section h3{
+    color: blue;
+    margin: 10px auto;
+}
+section h1{
+    color: white;
+    margin: 15px auto;
+    font-size: 3rem;
+}
+section p{
+    color: white;
+    padding: 3px;
+    margin: 0px auto;
+}
+section input{
+    width: 100px;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 20%;
+    border: 3px solid aqua;
+}
+#last{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+li{
+    margin: 10px;
+    color: white;
+}
+#l{
+    width: 200px;
+    border-radius: 15%;
+}
+div ul li h2:hover{
+    color: aqua;
+}
+li img{
+    width: 40px;
+    height: 40px;
+}
